@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    background: #68b0ab;
+    background-image: url(./img/canino.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+/* title */
+h1{
+    text-align: center;
+    margin: 10px 0px 0px 0px ;
+    color: #56556e;
+}
+h2{
+    text-align: center;
+    color: #eeeeee;
+    margin: 0px 0px 20px 0px;
+}
+/* estructura de formulario */
+
+.formulario{
+    background: #8fc0a9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    margin: 0px 490px;
+    padding: 30px 120px;
+    border-radius: 20px;
+    opacity: 0.9;
+    
+}
+
+/* estructura de input y label */
+/* input */
+.inputVet{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+/* label */
+.etiquetaVet{
+    padding: 10px 0px;
+    color: #c8d5b9;
+    font-size: 20px;
+}
+
+/* btn-data */
+
+#into{
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 0px;
+    font-family: 'Alata', sans-serif;
+    width: 200px;
+    margin: 20px auto;
+    background: #c8d5b9;
+    color: #faf3dd;
+    
+}
+
+
+/* config style listado */
+.listAnimal{
+    padding: 20px 200px;
+    background: #e0ece4;
+    list-style: none;
+    color: #776d8a;
+}
