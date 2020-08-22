@@ -1,0 +1,2 @@
+Desarrollo de un formulario de ingreso de pacientes en una veterinaria.
+Dicha ingreso esta programado por medio de herencias, teniendo de clase principal al dueño. Herendado su constructor a la clase hijo animal para el uso de los metodos o retorno de valores. 
